@@ -5,6 +5,7 @@
 
 ## О книге
 
+<<<<<<< Updated upstream
 Эта книга — **практическое руководство** по созданию полноценных веб-приложений на Rust с использованием библиотеки **`web_sys`** — основного инструмента для доступа к браузерному API из WASM-кода.
 
 Вместо сухого пересказа документации мы строим **настоящее приложение** и последовательно добавляем в него новые возможности: работу с DOM, обработку событий, сетевые запросы, файловую систему, графику, аудио и видео, параллельные вычисления и многое другое. Каждая глава — это законченный, работающий пример, который можно сразу запустить и применить в своём проекте.
@@ -55,11 +56,23 @@
 - Формат имени файла: `chapter-<номер>.md` — глава, `chapter-<номер>.<подномер>.md` — подглава;
 - Часть подглав использует отрицательные номера (`chapter-22.-01.md`) — это сохраняет порядок вывода в оглавлении;
 - Оглавление в этом README генерируется автоматически из заголовков `# ...` в начале каждого файла.
+=======
+Эта книга посвящена практическому использованию библиотеки **`web_sys`** — ключевого инструмента для взаимодействия с браузерным API (DOM, события, `fetch`, `WebSocket`, `Canvas`, `Storage` и многое другое) из кода на Rust.
+
+Материал построен по принципу **«обучение через делание»**: каждая глава содержит работающие примеры, которые можно сразу применить в реальном проекте. Книга рассчитана на разработчиков, уже знакомых с основами Rust.
+
+Все главы находятся в папке [`chapters`](https://github.com/rustkas/Rust-web_sys-by-doing/tree/main/chapters).
+Формат имени файла: `chapter-<номер>.md` для главы и `chapter-<номер>.<подномер>.md` для подглавы.
+>>>>>>> Stashed changes
 
 ---
 
 ## Содержание
 
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 - [Глава 1. Rust получает доступ к Web Platform](https://github.com/rustkas/Rust-web_sys-by-doing/blob/main/chapters/chapter-01.md)
 - [Глава 2. Как устроен `web_sys`](https://github.com/rustkas/Rust-web_sys-by-doing/blob/main/chapters/chapter-02.md)
 - [Глава 3. Первый Rust + `web_sys` проект](https://github.com/rustkas/Rust-web_sys-by-doing/blob/main/chapters/chapter-03.md)
@@ -108,6 +121,7 @@
   - [17.6. Byte streams и BYOB](https://github.com/rustkas/Rust-web_sys-by-doing/blob/main/chapters/chapter-17.6.md)
   - [17.6. Byte streams и BYOB](https://github.com/rustkas/Rust-web_sys-by-doing/blob/main/chapters/chapter-17.7.md)
   - [17.8. Streams в Service Worker](https://github.com/rustkas/Rust-web_sys-by-doing/blob/main/chapters/chapter-17.8.md)
+<<<<<<< Updated upstream
 - [Глава 18. File API](https://github.com/rustkas/Rust-web_sys-by-doing/blob/main/chapters/chapter-18.md)
   - [Глава 18.1. Базовые типы: `File`, `Blob`, `FileList`, метаданные](https://github.com/rustkas/Rust-web_sys-by-doing/blob/main/chapters/chapter-18.1.md)
   - [Глава 18.2. Чтение текста: `FileReader`, `FileReaderSync`](https://github.com/rustkas/Rust-web_sys-by-doing/blob/main/chapters/chapter-18.2.md)
@@ -126,6 +140,26 @@
   - [Глава 18.15. File System Access API: открытие, сохранение, папки](https://github.com/rustkas/Rust-web_sys-by-doing/blob/main/chapters/chapter-18.15.md)
   - [Глава 18.16. Web Share API: поделиться файлом](https://github.com/rustkas/Rust-web_sys-by-doing/blob/main/chapters/chapter-18.16.md)
   - [Глава 18.17. Хранение: Cache API, IndexedDB, OPFS](https://github.com/rustkas/Rust-web_sys-by-doing/blob/main/chapters/chapter-18.17.md)
+=======
+- [Часть VI. Файлы — фундамент нашего конвертера](https://github.com/rustkas/Rust-web_sys-by-doing/blob/main/chapters/chapter-18.md)
+  - [Глава 18. File API](https://github.com/rustkas/Rust-web_sys-by-doing/blob/main/chapters/chapter-18.1.md)
+  - [Глава 18. File API](https://github.com/rustkas/Rust-web_sys-by-doing/blob/main/chapters/chapter-18.2.md)
+  - [Глава 18. File API](https://github.com/rustkas/Rust-web_sys-by-doing/blob/main/chapters/chapter-18.3.md)
+  - [chapter-18.4](https://github.com/rustkas/Rust-web_sys-by-doing/blob/main/chapters/chapter-18.4.md)
+  - [Глава 18. File API](https://github.com/rustkas/Rust-web_sys-by-doing/blob/main/chapters/chapter-18.5.md)
+  - [Глава 18. File API](https://github.com/rustkas/Rust-web_sys-by-doing/blob/main/chapters/chapter-18.6.md)
+  - [Глава 18. File API](https://github.com/rustkas/Rust-web_sys-by-doing/blob/main/chapters/chapter-18.7.md)
+  - [Глава 18. File API](https://github.com/rustkas/Rust-web_sys-by-doing/blob/main/chapters/chapter-18.8.md)
+  - [Глава 18. File API](https://github.com/rustkas/Rust-web_sys-by-doing/blob/main/chapters/chapter-18.9.md)
+  - [Глава 18. File API](https://github.com/rustkas/Rust-web_sys-by-doing/blob/main/chapters/chapter-18.10.md)
+  - [Принято и зафиксировано](https://github.com/rustkas/Rust-web_sys-by-doing/blob/main/chapters/chapter-18.11.md)
+  - [Глава 18. File API](https://github.com/rustkas/Rust-web_sys-by-doing/blob/main/chapters/chapter-18.12.md)
+  - [Глава 18. File API](https://github.com/rustkas/Rust-web_sys-by-doing/blob/main/chapters/chapter-18.13.md)
+  - [Глава 18. File API](https://github.com/rustkas/Rust-web_sys-by-doing/blob/main/chapters/chapter-18.14.md)
+  - [Глава 18. File API](https://github.com/rustkas/Rust-web_sys-by-doing/blob/main/chapters/chapter-18.15.md)
+  - [Глава 18. File API](https://github.com/rustkas/Rust-web_sys-by-doing/blob/main/chapters/chapter-18.16.md)
+  - [Глава 18. File API](https://github.com/rustkas/Rust-web_sys-by-doing/blob/main/chapters/chapter-18.17.md)
+>>>>>>> Stashed changes
   - [Глава 18.18. Практический проект: конвертер файлов](https://github.com/rustkas/Rust-web_sys-by-doing/blob/main/chapters/chapter-18.18.md)
 - [Глава 19. File System Access API](https://github.com/rustkas/Rust-web_sys-by-doing/blob/main/chapters/chapter-19.md)
   - [Глава 19.1. `FileSystemHandle` и `FileSystemFileHandle` — базовые типы](https://github.com/rustkas/Rust-web_sys-by-doing/blob/main/chapters/chapter-19.01.md)
@@ -198,12 +232,21 @@
 - [Глава 37. WebTransport](https://github.com/rustkas/Rust-web_sys-by-doing/blob/main/chapters/chapter-37.md)
 - [Глава 45. WebRTC](https://github.com/rustkas/Rust-web_sys-by-doing/blob/main/chapters/chapter-38.md)
 - [Глава 39. Real-Time Browser Architecture](https://github.com/rustkas/Rust-web_sys-by-doing/blob/main/chapters/chapter-39.md)
+<<<<<<< Updated upstream
 - [Глава 40. Web Crypto API](https://github.com/rustkas/Rust-web_sys-by-doing/blob/main/chapters/chapter-40.md)
 - [Глава 41 Web Authentication](https://github.com/rustkas/Rust-web_sys-by-doing/blob/main/chapters/chapter-41.md)
   - [Глава 41.1 Web Authentication. Setup web-server](https://github.com/rustkas/Rust-web_sys-by-doing/blob/main/chapters/chapter-41.01.md)
   - [Глава 41.2 Production-grade WebAuthn-сервер](https://github.com/rustkas/Rust-web_sys-by-doing/blob/main/chapters/chapter-41.02.md)
 - [Глава 42. WebGL](https://github.com/rustkas/Rust-web_sys-by-doing/blob/main/chapters/chapter-42.md)
 - [Глава 43. WebGL 2](https://github.com/rustkas/Rust-web_sys-by-doing/blob/main/chapters/chapter-43.md)
+=======
+- [Часть XI. Security и Cryptography](https://github.com/rustkas/Rust-web_sys-by-doing/blob/main/chapters/chapter-40.md)
+- [Часть XI. Security и Cryptography](https://github.com/rustkas/Rust-web_sys-by-doing/blob/main/chapters/chapter-41.md)
+  - [Глава 41.01](https://github.com/rustkas/Rust-web_sys-by-doing/blob/main/chapters/chapter-41.01.md)
+  - [Companion 2: Production-grade WebAuthn-сервер к Главе 41](https://github.com/rustkas/Rust-web_sys-by-doing/blob/main/chapters/chapter-41.02.md)
+- [Часть XII. GPU и WebGL](https://github.com/rustkas/Rust-web_sys-by-doing/blob/main/chapters/chapter-42.md)
+- [Часть XII. GPU и WebGL](https://github.com/rustkas/Rust-web_sys-by-doing/blob/main/chapters/chapter-43.md)
+>>>>>>> Stashed changes
 - [Глава 44. WebGPU: compute shaders в браузере](https://github.com/rustkas/Rust-web_sys-by-doing/blob/main/chapters/chapter-44.md)
 - [Глава 45. Web Bluetooth — переработанная версия](https://github.com/rustkas/Rust-web_sys-by-doing/blob/main/chapters/chapter-45.md)
 - [Глава 46. Где должен находиться Rust](https://github.com/rustkas/Rust-web_sys-by-doing/blob/main/chapters/chapter-46.md)
@@ -215,6 +258,7 @@
 
 ## Как читать книгу
 
+<<<<<<< Updated upstream
 Каждую главу можно изучать независимо, но для последовательного освоения материала рекомендуется идти по порядку — от первой главы к последней. Подглавы внутри одной главы логически дополняют друг друга и раскрывают тему шаг за шагом.
 
 Оптимальный режим работы:
@@ -223,17 +267,24 @@
 2. Открыть соответствующий коммит в [сопутствующем проекте](https://github.com/rustkas/hello-wasm02);
 3. Повторить код у себя, внося собственные изменения;
 4. Использовать пример как основу для своих задач.
+=======
+Каждую главу можно изучать независимо, но для последовательного освоения материала рекомендуется идти по порядку — от первой главы к последней. Подглавы внутри одной главы логически дополняют друг друга.
+>>>>>>> Stashed changes
 
 ---
 
 ## Как внести вклад
 
+<<<<<<< Updated upstream
 Если вы нашли ошибку, опечатку или хотите предложить улучшение — откройте Issue или пришлите Pull Request. Приветствуются:
 
 - исправления опечаток и неточностей;
 - уточнения в примерах кода;
 - предложения по новым темам;
 - переводы глав.
+=======
+Если вы нашли ошибку, опечатку или хотите предложить улучшение — откройте Issue или пришлите Pull Request.
+>>>>>>> Stashed changes
 
 ---
 
