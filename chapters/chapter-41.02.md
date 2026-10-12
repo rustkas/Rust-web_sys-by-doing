@@ -1,4 +1,4 @@
-# Companion 2: Production-grade WebAuthn-сервер к Главе 41
+# Глава 41.2 Production-grade WebAuthn-сервер
 
 ## Зачем это нужно
 
